@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import './App.css'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import NavBar from './components/navbar.jsx'
 import Hero from './components/hero.jsx'
@@ -24,6 +24,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Contact/>
+      <SpeedInsights />
     </>
   )
 }
