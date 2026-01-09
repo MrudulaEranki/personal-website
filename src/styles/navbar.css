@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: black;
+     backdrop-filter: blur(10px);
+      display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+
+}
+.nav{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.319);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;  
+  align-items: center;
+}
+.contact-link {
+  margin-left: auto; 
+}
+
+
+
+.iconn{
+  float: left;
+  justify-self: end;
+}
+.iconn {
+  height: 50px;
+  width: 50px;
+  /* object-fit: contain; */
+}
+

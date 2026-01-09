@@ -1,0 +1,20 @@
+.about_container{
+    padding: 20px;
+    display: flex;
+    justify-content:left;
+    color: #ffffff ;
+    background-color:#6A0DAD;
+  height: 50vh;
+    border-width: 2px;
+    border-color: black;
+    border-bottom: 6px solid var(--black);
+    
+}
+
+.abouttitle{
+    margin: 2px;
+}
+
+.aboutcol{
+    padding: 20px;
+}

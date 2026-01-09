@@ -1,0 +1,40 @@
+.dino_click_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* clicks go through */
+  z-index: 9999;
+}
+
+.dino_click {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transform: translateY(0) scale(0);
+  animation: popFly 1s forwards;
+}
+
+@keyframes popFly {
+  0% {
+    transform: translateY(0) scale(0);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(-20px) scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150px) translateX(var(--drift, 0px)) rotate(360deg) scale(1);
+    opacity: 0;
+  }
+}
+
+/* smaller on mobile */
+@media (max-width: 768px) {
+  .dino_click {
+    width: 30px;
+    height: 30px;
+  }
+}
