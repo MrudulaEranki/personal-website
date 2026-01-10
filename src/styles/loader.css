@@ -1,0 +1,50 @@
+.loader_container {
+  position: fixed;
+  inset: 0;
+  background: var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Circle container */
+.orbit {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  animation: spin 4.5s linear infinite;
+}
+
+/* dinod images */
+.dino {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+}
+
+/* Position dinos at 120° apart */
+.dino1 {
+  transform: rotate(0deg) translate(60px);
+}
+
+.dino2 {
+  transform: rotate(120deg) translate(60px);
+}
+
+.dino3 {
+  transform: rotate(240deg) translate(60px);
+}
+
+/* Rotation animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
