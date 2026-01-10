@@ -50,7 +50,7 @@ export default function Projects() {
           link="https://github.com/MrudulaEranki/handwrittenDigits"
         />
       </div>
-      <h3><a href="https://github.com/MrudulaEranki" target="_blank">My Github</a></h3>
+      <h3><a href="https://github.com/MrudulaEranki" target="_blank" className="button">My Github</a></h3>
     </section>
   );
 }

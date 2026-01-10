@@ -44,7 +44,7 @@ export default function Hero() {
                 <Row className="hero_row align-items-center">
                     <Col md={6} className="hero_text">
                         <h1 className="name">Hi, this is Mrudula Eranki.</h1>
-                        <h3 className="intro">React and Mobile App developer.</h3>
+                        <h3 className="intro">Aspiring Software Developer</h3>
                     
                     </Col>
                    <Col md={6} className="d-flex justify-content-end">

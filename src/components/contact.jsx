@@ -49,10 +49,10 @@ export default function Contact() {
     <section id="contact">
       <div className="contact">
         <h1>Let's connect!</h1>
-        <p>
-          I’m currently open to internships, freelance work, and collaborations.
-          Feel free to reach out.
-        </p>
+        <h3>
+          I’m currently open to internships and freelance work.
+          Feel free to reach out :]
+        </h3>
 
         <div className="social-links">
           <a
@@ -84,7 +84,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="/public/MrudulaEranki_Resume.pdf"
+            href="/MrudulaEranki_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="social-link"
