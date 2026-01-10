@@ -12,9 +12,9 @@ export default function About(){
                 <h1 className="abouttitle">About me</h1>
                 </Col>
                 <Col className="aboutcol">
-                <h2>I am a final year student majoring in Computer Engineering, focusing on building applications, both mobile and web, and working with ML models.</h2>
-                <h2>I enjoy solving problems and finding creative solutions.</h2>
-                <h2>Currently, I am into Flutter full stack development and research work related to variational autoencoders and generative adversarial nets.</h2>
+                <h3>I am a final year student majoring in Computer Engineering, focusing on building applications, both mobile and web, and working with ML models.</h3>
+                <h3>I enjoy solving problems and finding creative solutions.</h3>
+                <h3>Currently, I am into Flutter full stack development and research work related to variational autoencoders and generative adversarial nets.</h3>
                 </Col>
             </Row>
         </Container>
