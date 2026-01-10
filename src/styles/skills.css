@@ -108,6 +108,7 @@ h2{
 }
 
 .skills{
+  background-color: var(--purple);
     border-bottom: 6px solid var(--black);
     padding: 30px;
     padding-bottom: 60px;
