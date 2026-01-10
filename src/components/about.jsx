@@ -12,14 +12,13 @@ export default function About(){
                 <h1 className="abouttitle">About me</h1>
                 </Col>
                 <Col className="aboutcol">
-                <p>Final-year Computer Engineering student specializing in mobile and 
-                    web application development, with practical experience in 
+                <p>Final-year Computer Engineering student specializing in building
+                    scalable applications, with practical experience in 
                     machine learning research and model implementation.
                 </p>
                 <p>I enjoy solving complex problems and developing creative, efficient solutions.</p>
                 <p> Currently, I am focused on Flutter full-stack development and conducting research
-    in deep generative models, including Variational Autoencoders (VAEs) and
-    Generative Adversarial Networks (GANs).</p>
+    in deep generative models, VAEs and GANs.</p>
                 </Col>
             </Row>
         </Container>
