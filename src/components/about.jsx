@@ -16,7 +16,7 @@ export default function About(){
                     scalable applications, with practical experience in 
                     machine learning research and model implementation.
                 </h3>
-                <h3>I enjoy solving complex problems and developing creative,
+                <h3>I enjoy solving problems and developing creative,
                      efficient solutions.</h3>
                 {/* <p> Currently, I am focused on Flutter full-stack development and conducting research
     in deep generative models, VAEs and GANs.</p> */}
