@@ -51,7 +51,7 @@ export default function Projects() {
         />
         <ProjectCard
           title="Hand Gesture LED Controller"
-          image="/images/fingy.png"
+          image="/images/ff.png"
           description="Developed a real-time finger gesture detection system using Python (OpenCV, MediaPipe, PySerial) to capture hand landmarks and transmit finger states for LED control."
           link="https://github.com/MrudulaEranki/Finger-Tip-Capture-Led-Controller"
         />
