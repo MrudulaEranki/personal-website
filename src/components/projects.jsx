@@ -29,6 +29,18 @@ export default function Projects() {
 
       <div className="projects-grid">
         <ProjectCard
+          title="Hand Gesture LED Controller"
+          image="/images/fingy.png"
+          description="Developed a real-time finger gesture detection system using Python (OpenCV, MediaPipe, PySerial) to capture hand landmarks and transmit finger states for LED control."
+          link="https://github.com/MrudulaEranki/Finger-Tip-Capture-Led-Controller"
+        />
+        <ProjectCard
+          title="Photobooth Website"
+          image="/images/pb.png"
+          description="Live Virtual Photobooth – Real-time P2P video app with React, WebRTC/PeerJS, Socket.IO (deployed on Vercel/Render)"
+          link="https://github.com/MrudulaEranki/PHOTOBOOTH"
+        />
+        <ProjectCard
           title="Chitraktha"
           image="/images/ck.png"
           description="Utilized the Ren’Py game engine to develop narrative-based gameplay mechanics and interactive features."
@@ -49,14 +61,11 @@ export default function Projects() {
           description="Built a CNN in Keras to classify MNIST handwritten digits, achieving 98.24% accuracy with a full ML pipeline."
           link="https://github.com/MrudulaEranki/handwrittenDigits"
         />
-        <ProjectCard
-          title="Hand Gesture LED Controller"
-          image="/images/fingy.png"
-          description="Developed a real-time finger gesture detection system using Python (OpenCV, MediaPipe, PySerial) to capture hand landmarks and transmit finger states for LED control."
-          link="https://github.com/MrudulaEranki/Finger-Tip-Capture-Led-Controller"
-        />
+        
+        {/* https://photobooth-eight-chi.vercel.app/ */}
+        
       </div>
-      <h3><a href="https://github.com/MrudulaEranki" target="_blank" className="button">My Github</a></h3>
+      <h3><a href="https://github.com/MrudulaEranki" target="_blank" className="button">View More</a></h3>
     </section>
   );
 }
