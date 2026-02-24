@@ -93,7 +93,7 @@ export default function Skills() {
           <Card.Body>
             <Card.Title className='big_letters'>Developer Tools & Databases</Card.Title>
             <Card.Text className='small_letters'>
-              Vite, Git, Vercel, Render, PeerJS (WebRTC), MySQL, MongoDB
+              Git, Vercel, Render, PeerJS (WebRTC), MySQL, MongoDB
             </Card.Text>
           </Card.Body>
         </Card>
