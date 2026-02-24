@@ -75,7 +75,7 @@ export default function Skills() {
           <Card.Body>
             <Card.Title className='big_letters'>Languages</Card.Title>
             <Card.Text className='small_letters'>
-              C, C++, Java, Python, JavaScript
+              Python, JavaScript, Java, C/C++, SQL
             </Card.Text>
           </Card.Body>
         </Card>
@@ -84,16 +84,16 @@ export default function Skills() {
           <Card.Body>
             <Card.Title className='big_letters'>Frameworks & Libraries</Card.Title>
             <Card.Text className='small_letters'>
-              Flutter, ReactJS, Material UI, HTML, CSS, NodeJS
+              ReactJS, Node.js/Express, Flutter, Socket.IO, TensorFlow, scikit-learn, NumPy, pandas
             </Card.Text>
           </Card.Body>
         </Card>
 
         <Card className='cardo'>
           <Card.Body>
-            <Card.Title className='big_letters'>Tools & Databases</Card.Title>
+            <Card.Title className='big_letters'>Developer Tools & Databases</Card.Title>
             <Card.Text className='small_letters'>
-              Git, Firebase, MySQL, MongoDB
+              Vite, Git, Vercel, Render, PeerJS (WebRTC), MySQL, MongoDB
             </Card.Text>
           </Card.Body>
         </Card>
